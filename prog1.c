@@ -6,7 +6,7 @@ int main() {
 	
 	srand(time(NULL));
 
-	// generate a number from 1-10 inlusive
+	// generate a number from 0-10 inlusive
 	int myrand = rand() % 11;
 
 	if (myrand >= 0 && myrand <= 4) {
